@@ -1,29 +1,13 @@
 
 
 ###Version History########
-
-## 2022-MM-DD	Ver 1.0 has released (creator: Shunichiro Orihara, Yokohama City Univ.)
-
+## 2022-05-28	Ver 1.0 has released (creator: Shunichiro Orihara, Yokohama City Univ.)
 ##########################
-
 
 ###READ ME################
-
-## This is a function for the propensity score subclassification estimator (see Orihara and Hamada, 2021).
-## Please prepare a propensity score estimator.
-
+## The R code needs to prepare the following variables:
 ## TT: treatment variable, PS: propensity score, YY: outcome variable
-
-## <Limitations>
-## Treatment variables are only dichotomous.
-## The maximum number of strata is necessary to use the method.
-
-## <Caution>
-## The programs has not validated correctly such as double programming (there is only self check).
-## The programs are freely available; however, there are no responsibility.
-
 ##########################
-
 
 ###PROGRAMS###############
 
