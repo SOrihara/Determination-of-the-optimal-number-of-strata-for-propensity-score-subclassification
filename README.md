@@ -1,16 +1,14 @@
 # Determination-of-the-optimal-number-of-strata-for-propensity-score-subclassification
-This repository stores a determination method of the optimal number of strata for propensity score subclassification proposed by Orihara and Hamada (2021).
+This repository stores a R code to determine the optimal number of strata for propensity score subclassification proposed by Orihara and Hamada (2021).
+Also, a toy example is prepared in the R code.
 
-This is a function for the propensity score subclassification estimator (see Orihara and Hamada, 2021).
-Please prepare a propensity score estimator.
-
-Variables
+The R code needs to prepare the following variables:
 - TT: treatment variable, PS: propensity score, YY: outcome variable
 
-Limitations
+Unfortunately, the proposed method has some limitations:
 - Treatment variables are only dichotomous.
 - The maximum number of strata is necessary to use the method.
 
-Caution
+Also please note the following when use the R code:
 - The programs has not validated correctly such as double programming (there is only self check).
 - The programs are freely available; however, there are no responsibility.
